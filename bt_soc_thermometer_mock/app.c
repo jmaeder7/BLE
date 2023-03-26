@@ -235,7 +235,6 @@ void sl_bt_ht_temperature_measurement_indication_changed_cb(uint8_t connection,
                                    NULL,
                                    false); //Jake was true
 
-
     app_assert_status(sc);
     // Send first indication.
     app_periodic_timer_cb(&app_periodic_timer, NULL);
